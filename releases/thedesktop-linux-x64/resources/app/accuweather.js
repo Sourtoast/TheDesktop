@@ -18,7 +18,6 @@ module.exports = async function getCurrentConditions() {
 
     if('Code' in conditions)
         return({
-            cityName: location.LocalizedName,
             cityName: conditions.Message,
             temperature: '-',
             weatherText: '-',
