@@ -1,3 +1,6 @@
+![Preview image]
+(https://i.redd.it/o01oyz1odym21.png)
+
 # TheDesktop
 This application is made using [electronjs](https://electronjs.org/) which can be resource heavy but if you know web technologies it's easy to customize. It was made because I wanted to have a ricing tool where I would have full control. Feel free to fork it and make it your way. Any feedback would be appreciated.  
 You can contact me by email - bul.wiktor@gmail.com  
