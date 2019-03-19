@@ -1,0 +1,54 @@
+#desktop {
+	padding: 70px;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: repeat(13, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+	grid-template-areas: 
+		"time time weather weather weather weather . . . . . . ."
+		". . . . . . . . . . . . . "
+		". . . . . . . . . . . . . "
+		". . . . . . . . . . . . . "
+		". . . . . . . . . . . . . "
+		". . . . . . . . . . . . . "
+		". . . . . . . . . . . . . ";
+}
+
+#desktop-time{
+	font-size: 1.5em;
+	grid-area: time;
+	text-align: center;
+	align-self: center;
+}
+	#desktop-clock {
+		font-size: 3.2em;
+		line-height: 1.2em;
+		margin-top: -10px;
+	}
+
+#weather {
+	grid-area: weather;
+	border-left: 1px solid #fff;
+	text-align: left;
+    vertical-align: middle;
+}
+
+	#weather #weather-icon{
+        display: inline-block;
+        filter: invert(1);
+        width: 100px;
+        position: relative;
+        top: 15px;
+        padding: 0 15px;
+	}
+
+	#weather #info{
+		display: inline-block;
+		font-size: 1.5em;
+		text-align: left;
+		width: calc(100% - 150px);
+	}
+
+	#weather #info .small{
+		font-size: 0.7em;
+	}

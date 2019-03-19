@@ -1,0 +1,40 @@
+@import "./bar.css";
+@import "./desktop.css";
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: "Open Sans", sans-serif;
+	font-weight: lighter;
+	color: #fff;
+	transition: opacity 2s ease;
+	-webkit-user-select: none;
+	animation: fadein 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+		background-color: #00000000;
+	}
+	to {
+		opacity: 1;
+		background-color: #0000004d;
+	}
+}
+
+#desktop {
+	height: calc(100vh - 50px);
+}
+
+#bar {
+	height: 50px;
+	width: 100vw;
+	position: absolute;
+	bottom: 0;
+	/* background-color: #00000065; */
+}

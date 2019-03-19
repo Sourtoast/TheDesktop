@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="desktop">
+        <div id="desktop-time">
+            <div id="desktop-clock" data-class="clock">
+                00:00
+            </div>
+            <div id="desktop-date" data-class="date-alt">
+                poniedziałek, 1 stycznia
+            </div>
+        </div>
+        <div id="weather">
+            <img src="./weather-icons/default.svg" id="weather-icon" alt="">
+            <div id="info">
+                <div id="city-name" class="small">NULL</div>
+                <div id="weather-text">NULL</div>
+                <div id="realfeel" class="small">NULL</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bar">
+        <div id="power" class="module slide slide-right">
+            <div class="hover-icon">
+                <img src="icons/power.svg" class="icon" alt="">
+            </div>
+            <div class="slider">
+                <a href="#!" class="action" data-class='power' data-action="poweroff">
+                    <span class="action-label"> Shutdown</span>
+                </a>
+                <a href="#!" class="action" data-class='power' data-action="reboot">
+                    <span class="action-label"> Reboot</span>
+                </a>
+                <a href="#!" class="action" data-class='power' data-action="suspend">
+                    <span class="action-label"> Suspend</span>
+                </a>
+            </div>
+        </div>
+        
+        
+        <div id="bar-time" class="module">
+            <span id="bar-clock" data-class="clock">00:00</span>
+            <span id="bar-date" data-class="date">1 sty 2000</span>
+            <span id="bar-day" data-class="day">poniedziałek</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

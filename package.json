@@ -1,0 +1,17 @@
+{
+  "name": "thedesktop",
+  "version": "0.9.0",
+  "description": "An app to display basic information on dekstop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": {
+    "name": "Wiktor Buliński",
+    "email": "bul.wiktor@gmail.com"
+  },
+  "bugs": {
+      "email" : "bul.wiktor@gmail.com"
+  },
+  "license": "MIT"
+}
