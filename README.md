@@ -6,7 +6,7 @@ Or discord - bullione#1021
 ## Installation:
 Binaries can be found in releases direcotry.  
 For instalation copy suitable folder to location of your choice. Respectively ia32 for 32-bit and x64 for 64-bit systems.  
-To run it execute thedesktop file or add it to startup
+To run it execute "thedesktop" file or add it to startup
 
 #### Transparency
 This heavily rely on transparency so you need to install some kind of compositor. I used it with compton and it works fine. For others you need to find out by yourself. 
