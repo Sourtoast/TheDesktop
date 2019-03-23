@@ -15,7 +15,7 @@ This heavily rely on transparency so you need to install some kind of compositor
 
 #### Weather 
 Because I don't have bought accuweather api package you need to make your own api key and configure it.  
-Configuration file is inside config.js file (on release it's $application_direcotry/resources/app/config.js)  
+Configuration file is inside config.js file (on release it's $application_directory/resources/app/config.js)  
 To obtain api key you need to make an account at https://developer.accuweather.com and create your own app.  
 
 1. Log in to your accyweather developer account
