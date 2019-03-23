@@ -34,3 +34,6 @@ After that you need to obtain your location key
 8. Copy number where it says "Key" and paste it in config where it says "PASTE YOUR LOCATION KEY"
 
 Language code can be obtained [here](https://developer.accuweather.com/localizations-by-language)
+
+## Contribution:
+Contributions are welcome from anyone.
