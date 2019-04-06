@@ -14,7 +14,7 @@ To run it execute "thedesktop" file or add it to startup
 This heavily rely on transparency so you need to install some kind of compositor. I used it with compton and it works fine. For others you need to find out by yourself. 
 
 #### Weather 
-Because I don't have bought accuweather api package you need to make your own api key and configure it.  
+Because I do not own a purchased accuweather api package you need to make your own api key and configure it.  
 Configuration file is inside config.js file (on release it's $application_directory/resources/app/config.js)  
 To obtain api key you need to make an account at https://developer.accuweather.com and create your own app.  
 
