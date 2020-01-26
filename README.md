@@ -1,9 +1,7 @@
 ![Preview image](https://i.redd.it/o01oyz1odym21.png)
 
 # TheDesktop
-This application is made using [electronjs](https://electronjs.org/) which can be resource heavy but if you know web technologies it's easy to customize. It was made because I wanted to have a ricing tool where I would have full control. Feel free to fork it and make it your way. Any feedback would be appreciated.  
-You can contact me by email - bul.wiktor@gmail.com  
-Or discord - bullione#1021
+This application is made using [electronjs](https://electronjs.org/) which can be resource heavy but if you know web technologies it's easy to customize. It was made because I wanted to have a ricing tool where I would have full control. Feel free to fork it and make it your way.
 
 ## Installation:
 Binaries can be found in releases direcotry.  
@@ -34,6 +32,3 @@ After that you need to obtain your location key
 8. Copy number where it says "Key" and paste it in config where it says "PASTE YOUR LOCATION KEY"
 
 Language code can be obtained [here](https://developer.accuweather.com/localizations-by-language)
-
-## Contribution:
-Contributions are welcome from anyone.
